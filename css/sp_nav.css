@@ -1,0 +1,217 @@
+/* header */
+#top-head {
+    line-height: 1;
+    z-index: 999;
+    padding: 20px 0 0 0;
+}
+#top-head a,
+#top-head {
+}
+#top-head .inner {
+}
+#mobile-head{
+    display: inline-flex;
+    width: 15%;
+}
+#top-head .logo {
+}
+#global-nav{
+    display: inline-flex;
+    vertical-align: super;
+    margin-left: 15%;
+    width: 69%;
+    position: relative;
+    font-weight: bold;
+}
+#global-nav ul {
+}
+#global-nav ul li {
+}
+#global-nav ul li a {
+}
+#global-nav #sns-menu{
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    height: 30px;
+    margin: 0;
+    padding: 0; 
+} 
+#global-nav #sns-menu span{
+    
+}
+/* Fixed */
+#top-head.fixed {
+    margin-top: 0;
+    top: 0;
+    position: fixed;
+    padding-top: 10px;
+    height: 45px;
+    background: #fff;
+    background: rgba(255,255,255,.9);
+    transition: top 0.65s ease-in;
+    -webkit-transition: top 0.65s ease-in;
+    -moz-transition: top 0.65s ease-in;
+}
+#top-head.fixed .logo {
+    width:120px;
+}
+#top-head.fixed #global-nav ul li a {
+}
+ 
+/* Toggle Button */
+#nav-toggle {
+    display: none;
+    position: absolute;
+    right: 12px;
+    top: 14px;
+    width: 34px;
+    height: 36px;
+    cursor: pointer;
+    z-index: 101;
+}
+#nav-toggle div {
+    position: relative;
+}
+#nav-toggle span {
+    display: block;
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background: #666;
+    left: 0;
+    -webkit-transition: .35s ease-in-out;
+    -moz-transition: .35s ease-in-out;
+    transition: .35s ease-in-out;
+}
+#nav-toggle span:nth-child(1) {
+    top: 0;
+}
+#nav-toggle span:nth-child(2) {
+    top: 11px;
+}
+#nav-toggle span:nth-child(3) {
+    top: 22px;
+}    
+
+
+    /* Fixed reset */
+    #top-head.fixed {
+        padding-top: 0;
+        background: rgba(255,255,255,.9);
+    transition: top 0.65s ease-in;
+    -webkit-transition: top 0.65s ease-in;
+    -moz-transition: top 0.65s ease-in;
+    }
+    #mobile-head {
+        width: 100%;
+        height: 42px;
+        position: relative;
+    }
+    #top-head.fixed .logo,
+    #top-head .logo {
+        position: absolute;
+        left: 3%;
+        top: -5px;
+        color: #333;
+    }
+    #global-nav {
+        position: absolute;
+        /* 開いてないときは画面外に配置 */
+        top: -512px;
+        background: rgba(255,255,255,0.9);
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+        -webkit-transition: .5s ease-in-out;
+        -moz-transition: .5s ease-in-out;
+        transition: .5s ease-in-out;
+        height: 100vh;
+        display: none;
+    }
+    .open #global-nav {
+        display: block;
+    }
+    #global-nav ul {
+        list-style: none;
+        position: static;
+        right: 0;
+        bottom: 0;
+        font-size: 14px;
+    }
+    #global-nav ul li {
+        float: none;
+    }
+    #top-head #global-nav ul li a,
+    #top-head.fixed #global-nav ul li a {
+        width: 100%;
+        display: block;
+        color: #333;
+        padding: 18px 0;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    #nav-toggle {
+        display: block;
+    }
+    /* Toggle Button */
+#nav-toggle {
+    position: absolute;
+    right: 12px;
+    top: 3px;
+    width: 22px;
+    height: 30px;
+    cursor: pointer;
+    z-index: 101;
+}
+.open #nav-toggle{
+    top: 8px;
+}
+#nav-toggle div {
+    position: relative;
+}
+#nav-toggle span {
+    display: block;
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background: #666;
+    left: 0;
+    -webkit-transition: .60s ease-in-out;
+    -moz-transition: .60s ease-in-out;
+    transition: .60s ease-in-out;
+}
+#nav-toggle span:nth-child(1) {
+    top: 9px;
+}
+#nav-toggle span:nth-child(2) {
+    top: 16px;
+}
+#nav-toggle span:nth-child(3) {
+    top: 23px;
+}
+    /* #nav-toggle 切り替えアニメーション */
+    .open #nav-toggle span:nth-child(1) {
+        top: 11px;
+        -webkit-transform: rotate(315deg);
+        -moz-transform: rotate(315deg);
+        transform: rotate(315deg);
+    }
+    .open #nav-toggle span:nth-child(2) {
+        width: 0;
+        left: 50%;
+    }
+    .open #nav-toggle span:nth-child(3) {
+        top: 11px;
+        -webkit-transform: rotate(-315deg);
+        -moz-transform: rotate(-315deg);
+        transform: rotate(-315deg);
+    }
+    /* #global-nav スライドアニメーション */
+    .open #global-nav {
+        /* #global-nav top + #mobile-head height */
+        -moz-transform: translateY(554px);
+        -webkit-transform: translateY(554px);
+        transform: translateY(554px);
+    }

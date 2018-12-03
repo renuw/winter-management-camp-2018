@@ -1,0 +1,199 @@
+.button_head {
+  position: relative;
+  margin: auto 0;
+  border-radius: 3px;
+  padding: 5px 10px;
+  font-family: "brandon-grotesque",sans-serif;
+  font-size: 14px;
+  display: block;
+  background: #e96e4e;
+  position: relative;
+  color: #fff;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  text-align: center;
+}
+.fa-chevron-right {
+  position: absolute;
+  top: 27px;
+  right: 27px;
+  font-size: 10px;
+  color: #fff;
+}
+
+
+.button_catch {
+  width: 360px;
+  margin: auto 0;
+  border-radius: 6px;
+  padding: 15px 0px;
+  font-family: "brandon-grotesque",sans-serif;
+  font-size: 24px;
+  display: inline-block;
+  background: #e96e4e;
+  color: #fff;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  text-align: center;
+  font-weight: normal;
+}
+.button_common {
+    width: 100%;
+    margin: auto 0;
+    padding: 10px 30px 10px 10px;
+    font-size: 20px;
+    display: inline-block;
+    background: #ffffff;
+    color: #000;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    text-align: left;
+    font-weight: bold;
+    border: 1px #000 solid;
+    position: relative;
+}
+.button_small {
+    margin: auto 0;
+    padding: 2px 30px 2px 10px;
+    font-size: 14px;
+    display: inline-block;
+    background: #ffffff;
+    color: #000;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    text-align: left;
+    font-weight: normal;
+    border: 1px #000 solid;
+    position: relative;
+}
+.button_common:after,
+.button_small:after{
+  position: absolute;
+  content: "→";
+  color: #000;
+  right: 10px;
+  background-color: transparent; 
+}
+.button_small:hover:after,
+.button_small:hover,
+.button_common:hover:after,
+.button_common:hover,
+.button_catch:hover,
+.button_head:hover {
+  background: #000;
+  color: #fff;
+}
+.button_small:hover:after,
+.button_common:hover:after {
+  color: #fff;
+  background-color: transparent; 
+}
+
+h2{
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 100%;
+}
+.btn_wrap{
+}
+#service:before,
+#merit:before,
+#chose:before {
+  content: "";
+  display: inline-block;
+  height: 120px;
+  margin-top:-120px;
+  padding-top:120px;
+}
+.invisible {
+  transition: opacity 0.5s ease;
+  opacity: 0.0;
+}
+
+.visible {
+  transition: opacity 0.5s ease;
+  opacity: 1.0;
+}
+body{
+  overflow-x: hidden;
+  background-color: #00003a;
+  color: #fff; 
+}
+/*---------------------------------------------------------------*\
+$1500px
+\*---------------------------------------------------------------*/
+
+@media screen and (max-width: 1500px) {
+
+
+
+}
+
+/*---------------------------------------------------------------*\
+$1020px
+\*---------------------------------------------------------------*/
+
+@media screen and (max-width: 1020px) {
+
+
+
+}
+
+/*---------------------------------------------------------------*\
+$768px
+\*---------------------------------------------------------------*/
+
+@media screen and (max-width: 768px) {
+
+h2{
+  font-size: 24px;
+}
+
+body{
+  overflow-x: auto;
+}
+
+}
+
+
+
+
+/*---------------------------------------------------------------*\
+$480px
+\*---------------------------------------------------------------*/
+
+@media screen and (max-width: 480px) {
+  .button_catch {
+    font-size: 16px;
+    width: 240px;
+  }
+  .button_common {
+    font-size: 16px;
+  }
+  .for_pc{
+    display: none;
+  }
+}
+
+/*---------------------------------------------------------------*\
+$320px
+\*---------------------------------------------------------------*/
+
+@media screen and (max-width: 320px) {
+   .button_catch {
+    font-size: 16px;
+    width: 240px;
+  } 
+  .button_common {
+    font-size: 16px;
+    width: 240px;
+  }
+}

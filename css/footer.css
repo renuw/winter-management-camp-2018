@@ -1,0 +1,99 @@
+@charset "UTF-8";
+footer{
+  width: 100%;
+}
+.footer_wrap{
+  margin: 0 1%;
+}
+.footer_wrap ul{
+  float: left;
+}
+.footer_wrap ul li{
+   margin-right: 50px;
+   display: inline-block;
+}
+.footer_wrap ul li:first-child{
+}
+.footer_wrap ul li:last-child{
+  margin-right:0px;
+}
+.footer_wrap ul li a {
+    font-weight: bold;
+    display: block;
+    font-family: 'Francois One', sans-serif;
+    font-size: 32px;
+    letter-spacing: 0px;
+}
+.footer_wrap p{
+  float: right;
+    font-family: 'Francois One', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0px;
+     margin-top: 20px;
+     color: #fff;
+    font-weight: bold;
+}
+
+/*---------------------------------------------------------------*\
+$1500px
+\*---------------------------------------------------------------*/
+
+@media screen and (max-width: 1500px) {
+
+}
+
+/*---------------------------------------------------------------*\
+$1200px
+\*---------------------------------------------------------------*/
+
+@media screen and (max-width: 1280px) {
+
+}
+
+/*---------------------------------------------------------------*\
+$1080px
+\*---------------------------------------------------------------*/
+
+@media screen and (max-width: 1020px) {
+.footer_wrap{
+    width: 100%;
+    padding: 0 20px;  
+}
+
+}
+
+/*---------------------------------------------------------------*\
+$768px
+\*---------------------------------------------------------------*/
+
+@media screen and (max-width: 768px) {
+.footer_wrap{
+  margin: 40px auto;
+}
+.footer_wrap ul li{
+  margin-right: 10px;
+  padding-left: 10px;
+}
+.footer_wrap ul li a {
+  font-size: 24px;
+}
+}
+
+/*---------------------------------------------------------------*\
+$480px
+\*---------------------------------------------------------------*/
+
+@media screen and (max-width: 480px) {
+  
+.footer_wrap p{
+  font-size: 10px;
+}
+}
+
+/*---------------------------------------------------------------*\
+$320px
+\*---------------------------------------------------------------*/
+
+@media screen and (max-width: 320px) {
+  
+}

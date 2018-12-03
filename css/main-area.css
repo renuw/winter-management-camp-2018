@@ -1,0 +1,201 @@
+/*---------------------------------------------------------------*\
+concept
+\*---------------------------------------------------------------*/
+#concept{
+	width: 100%;
+}
+.concept_wrap{
+	width: 1020px;
+    margin: 80px auto 160px auto;
+    text-align: center;
+}
+.concept_inner{
+}
+.concept_inner h2{
+	font-size: 64px;
+	letter-spacing: 0.15em;
+	margin-bottom: 70px;
+	color: #fff;
+	line-height: 150%;
+}
+.concept_inner h2 span{
+	color: #fff;
+	font-size: 24px;
+	line-height: 200%;
+	font-weight: bold;
+	display: block;
+}
+.concept_inner p{
+	font-size: 24px;
+	line-height: 200%;
+	font-weight: bold;
+	color: #fff;
+}
+
+
+/*---------------------------------------------------------------*\
+company
+\*---------------------------------------------------------------*/
+
+#schedule{
+	width: 100%;
+}
+.schedule_wrap{
+	width: 1020px;
+    margin: 80px auto 160px auto;
+}
+.schedule_inner{
+}
+.schedule_inner h2{
+	font-size: 48px;
+	letter-spacing: 0.075em;
+	font-family: 'Francois One', sans-serif;
+	margin-bottom: 40px;
+	position: relative;
+	color: #fff;
+	text-align: center;
+}
+
+.schedule_inner table{
+	font-size: 20px;
+	font-weight: bold;
+	width: 100%;
+}
+.schedule_inner table tr{
+	border-bottom: 1px #333163 solid;
+}
+.schedule_inner table th,
+.schedule_inner table td{
+	padding: 25px 0px 20px 0px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+}
+.schedule_inner table th{
+	width:20%; 
+	font-size: 15px;
+}
+.schedule_inner table td{
+	
+}
+
+.schedule_inner table td.party{
+    color: #fff700;
+}
+
+
+
+/*---------------------------------------------------------------*\
+$1020px
+\*---------------------------------------------------------------*/
+
+@media screen and (max-width: 1020px) {
+
+
+.concept_wrap,
+.schedule_wrap{
+    width: 100%;
+    padding: 0 20px;
+}
+
+
+
+}
+
+/*---------------------------------------------------------------*\
+$768px
+\*---------------------------------------------------------------*/
+
+@media screen and (max-width: 768px) {
+
+.concept_inner h2 {
+    font-size: 36px;
+    letter-spacing: 0.15em;
+    margin-bottom: 40px;
+}
+.concept_inner p {
+    font-size: 18px;
+    line-height: 175%;
+    font-weight: bold;
+}
+
+.schedule_inner h2{
+	margin-bottom: 20px;
+}
+
+
+.concept_wrap {
+    margin: 40px auto 50px auto;
+}
+
+.schedule_wrap {
+    margin: 20px auto 50px auto;
+}
+
+.schedule_inner table th,
+.schedule_inner table td {
+    padding: 25px 5px 20px 5px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.schedule_inner table th {
+    width: 40%;
+    font-size: 11px;
+}
+
+
+
+}
+/*---------------------------------------------------------------*\
+$480px
+\*---------------------------------------------------------------*/
+
+@media screen and (max-width: 480px) {
+
+.concept_inner h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+.concept_inner h2 span{
+   font-size: 13px;
+}
+
+.concept_inner p {
+    font-size: 13px;
+}
+
+.schedule_inner h2{
+	font-size: 36px;
+	margin-bottom: 15px;
+}
+
+
+
+.schedule_inner table td {
+	font-size: 14px;
+}
+
+
+.footer_wrap ul li a {
+    font-size: 16px;
+}
+
+.footer_wrap p {
+    font-size: 12px;
+}
+
+
+}
+
+/*---------------------------------------------------------------*\
+$320px
+\*---------------------------------------------------------------*/
+
+@media screen and (max-width: 320px) {
+
+}
+
+
+
+
