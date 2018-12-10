@@ -137,7 +137,7 @@ $900px
   header {
     position: absolute;
     padding-top: 35px;
-    display: inline;
+    display: none;
   }
   header .menu_header {
     display: none;
